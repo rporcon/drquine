@@ -1,9 +1,11 @@
+#include <stdio.h>
 
+char	*test[] = {
+	"printf(test)"
+};
 
 int		main(void)
 {
-	char	*str;
-
-	str = "str = ";
+	printf(9);
 	return (0);
 }
