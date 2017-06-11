@@ -19,9 +19,11 @@ char *str[] = {
 	"	ft_putchar(34);",
 	"	ft_putstr(str[i]);",
 	"	ft_putchar(34);",
-	"	if (i != 19)",
+	"	if (i != 39)",
+	"	{",
 	"		ft_putchar(',');",
-	"	ft_putchar(10)",
+	"		ft_putchar(10);",
+	"	}",
 	"}",
 	"",
 	"int	main(void)",
@@ -35,11 +37,11 @@ char *str[] = {
 	"	while (++i < 6)",
 	"		ft_putendl(str[i]);",
 	"	i = -1;",
-	"	while (++i < 35)",
+	"	while (++i < 40)",
 	"		print_array(i);",
 	"	i = 5;",
-	"	while (++i < 35)",
-	"		ft_putendl(i);",
+	"	while (++i < 40)",
+	"		ft_putendl(str[i]);",
 	"	return (0);",
 	"}"
 };
@@ -50,26 +52,28 @@ void	print_array(int i)
 	ft_putchar(34);
 	ft_putstr(str[i]);
 	ft_putchar(34);
-	if (i != 37)
+	if (i != 39)
+	{
 		ft_putchar(',');
-	ft_putchar(10);
+		ft_putchar(10);
+	}
 }
 
-int		main(void)
+int	main(void)
 {
 	/*
 	**	main
 	*/
-	int		i;
+	int	i;
 
 	i = -1;
 	while (++i < 6)
 		ft_putendl(str[i]);
 	i = -1;
-	while (++i < 38)
+	while (++i < 40)
 		print_array(i);
 	i = 5;
-	while (++i < 38)
+	while (++i < 40)
 		ft_putendl(str[i]);
 	return (0);
 }
