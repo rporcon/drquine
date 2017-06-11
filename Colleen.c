@@ -1,12 +1,12 @@
 #include <libft.h>
 /*
-**	func
+	func
 */
 
 char *str[] = {
 	"#include <libft.h>",
 	"/*",
-	"**	func",
+	"	func",
 	"*/",
 	"",
 	"char *str[] = {",
@@ -29,7 +29,7 @@ char *str[] = {
 	"int	main(void)",
 	"{",
 	"	/*",
-	"	**	main",
+	"		main",
 	"	*/",
 	"	int	i;",
 	"",
@@ -62,7 +62,7 @@ void	print_array(int i)
 int	main(void)
 {
 	/*
-	**	main
+		main
 	*/
 	int	i;
 
