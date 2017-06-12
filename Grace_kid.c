@@ -1,6 +1,5 @@
-#include <libft.h>
-#define PROG(n) "#include <libft.h>"#n"#define PROG(n) "
-#define VAR ft_putchar(34);ft_putstr();ft_putchar(34);
-#define MAIN(x) int main(){ft_putstr(PROG(\n));VAR/* code */ return (0); }
-
-MAIN()
+#include <stdio.h>
+#define HELLO WORLD
+#define WORLD HELLO
+#define FT(x) int main(){char *a = "#include <stdio.h>%c#define HELLO WORLD%c#define WORLD HELLO%c#define FT(x) int main(){char *a = %c%s%c;printf(a,10,10,10,34,a,34,10,10);/*code*/}%cFT(x);%c";printf(a,10,10,10,34,a,34,10,10);/*code*/}
+FT(x);
