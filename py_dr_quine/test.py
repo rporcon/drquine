@@ -1,5 +1,6 @@
 def main():
-    print("{}".format(chr(34)));
+    a = 'a = %r';
+    print(a % a);
 
 if __name__ == "__main__":
-    main()
+    main();
