@@ -1,6 +1,6 @@
 COLLEEN_NAME = Colleen
 
-GRACE_KID_NAME = Grace_kid
+GRACE_KID_NAME = Grace
 
 SULLY_NAME = Sully
 
@@ -8,7 +8,7 @@ SRCS_DIR = ./srcs
 
 COLLEEN_SRC =  $(SRCS_DIR)/Colleen.c
 
-GRACE_KID_SRC = $(SRCS_DIR)/Grace_kid.c
+GRACE_KID_SRC = $(SRCS_DIR)/Grace.c
 
 SULLY_SRC =  $(SRCS_DIR)/Sully.c
 
